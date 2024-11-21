@@ -3,14 +3,19 @@ body{ padding-left: .5%; padding-bottom: 5rem;
 background: linear-gradient(90deg, rgb(222, 237, 185), rgb(164, 214, 166));
 }
 h1,h2{text-align: center;}
-p{font-size: x-large;
-line-height: 1.3;
-text-indent: 25px;
+
+.podgrpc{font-size: x-large;
+line-height: 1.5;
+text-indent: 30px;
+letter-spacing: 2.7px;
+padding-right: 2.4rem;
+}
+.podgrpck{font-size: large;
+ text-indent: 25px;
+/* line-height: 1.3;
 letter-spacing: 2.5px;
-padding-right: 1.8rem;
+padding-right: 1.8rem; */
 }
-.podgrpc {
- float: left;
- shape-margin: 20px;
-}
-h2{padding-top: 2rem;}
+h2{margin-top: 4rem;
+color: #260c68;}
+h2:hover{ color: red;}
