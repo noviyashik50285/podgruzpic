@@ -1,6 +1,7 @@
 * {margin: 0; padding: 0; }
 body{ padding-left: .5%; padding-bottom: 5rem;
 background: linear-gradient(90deg, rgb(222, 237, 185), rgb(164, 214, 166));
+font-family: 'Rubik', sans-serif;
 }
 h1,h2{text-align: center;}
 
@@ -17,7 +18,18 @@ padding-right: 2.4rem;
 letter-spacing: 2.5px;
 padding-right: 1.8rem; */
 }
-.dop2{color: red;}
+.dop2{color: red;
+font-size: 22px;
+margin-top: 10px;
+}
 h2{margin-top: 4rem;
 color: #260c68;}
 h2:hover{ color: red;}
+.autoprknp{
+padding: 10px;
+color: blue;
+cursor: pointer;
+border: 3px solid gray;
+border-radius: 1rem;
+margin-bottom: .5rem;
+}
