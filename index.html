@@ -26,11 +26,13 @@ style="float: left; margin-right: 10px; margin-bottom: 4px;"/>
 <button class="autoprknp">Автопрокрутка фоток</button></a>
 </span>
 
-<p class="podgrpc">Дуба́й — крупнейший город Объединённых Арабских Эмиратов и глубоководный морской порт, 
+<p class="podgrpc" id="podgrpc">Дуба́й — крупнейший город Объединённых Арабских Эмиратов и глубоководный морской порт, 
 административный центр одноимённого эмирата, важнейший торговый и финансовый центр ОАЭ 
 и всего Ближнего Востока. Расположен на берегу Персидского залива. 
     С начала XXI века он превратился в важный региональный и международный торговый центр, 
-уделяющий особое внимание туризму и роскоши. 
+уделяющий особое внимание туризму и роскоши.
+<button class="knopazag" onclick="mychfont()">Поменять шрифт</button><br>
+
 </p>    
 
 <img width="85%" data-original="img/dubai01.jpg" alt="Нет картинки">
@@ -92,6 +94,23 @@ style="float: left; margin-right: 10px; margin-bottom: 4px;"/>
 
 <script src="podgruzpic.js"></script>      
 <script src="podgruzka.js"></script>      
+
+<script>
+var a;
+function mychfont()
+{
+if(a==1) {
+    document.getElementById("podgrpc").style.fontFamily = "Wolgadeutsche";
+    document.getElementById("podgrpc").style.fontSize = "26px";
+    return a=0;
+}
+else{
+    document.getElementById("podgrpc").style.fontFamily = "Times New Roman";
+    document.getElementById("podgrpc").style.fontSize = "24px";
+    return a=1;
+}
+}
+</script>
 
 </body>
 </html>
